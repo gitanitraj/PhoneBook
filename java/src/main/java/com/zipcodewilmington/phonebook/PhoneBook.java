@@ -56,9 +56,9 @@ public class PhoneBook {
 
     }
 
-    private void loopThruAndAdd(List<String> foo, String name, String... strings) {
+    private void loopThruAndAdd(List<String> leopard, String name, String... strings) {
         for (String s : strings) {
-            foo.add(s);
+            leopard.add(s);
             addRevNumber(s, name);
         }
     }
